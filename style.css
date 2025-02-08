@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 body{
   
@@ -29,7 +29,7 @@ nav{
     align-items: center;
     font-family: 'Quicksand', sans-serif;
     transition: .4s;
-    padding-right: 4em;
+    padding-right: 2em;
     font-size: 17px;
 }
 nav > h1{
@@ -40,50 +40,30 @@ nav > h1{
     line-height: 20px;
     
 }
-nav ul,li{
+nav ul{
     list-style: none;
     list-style-type: none;
     display: flex;
     justify-content:space-between;
-    font-size: 17px;
-   
+    font-size: 1.1rem;
 }
-    
-nav a{
-    display:flex;
-    justify-items: space-between;
-    text-decoration: none;
-    color: white;
-}
+
 a{
     margin: 14px;
-    padding:1.2em;
+    padding: 1em;
     text-decoration: none;
+    color: white;
 }
 .diferente,a:hover{
     background-color:rgb(19, 98, 209);
     border-radius: 5px;
     color: black;
-    }
+}
 main{
+    display:flex;
+    justify-content:center;
+}
 
-    display:flex;
-    justify-content:center;
-    flex-direction: row;
-}
-aside{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    width:100vw;
-    height:90vh;
-    color: white;
-}
-section{
-    width:90vw;
-    height:90vh;
-    background-color: transparent;
-}
 .text{
 
     display:flex;
